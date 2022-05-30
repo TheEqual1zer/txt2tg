@@ -89,7 +89,7 @@ def analysis(text):
 
 
 def start(update: Update, context: CallbackContext):
-    update.message.reply_text(f"Приветствую, я — <b>{context.bot.first_name}. \n\nЯ умею анализировать текст, "
+    update.message.reply_text(f"Приветствую, я — <b>{context.bot.first_name}</b>. \n\nЯ умею анализировать текст, "
                               f"пришлите фрагмент или <i>.txt .docx</i> файл и <b>посмотрите</b> на что я способен.",
                               parse_mode=ParseMode.HTML)
 
