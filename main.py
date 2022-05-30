@@ -10,8 +10,6 @@ import pymorphy2 as pm
 import matplotlib.pyplot as plt
 
 
-# TODO: .docx, .doc, .txt reading
-
 # Used:
 # https://docs.python.org/3/library/re.html
 # https://pymorphy2.readthedocs.io/en/stable/
